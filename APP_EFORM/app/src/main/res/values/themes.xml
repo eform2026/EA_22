@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.EformMobile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/blue_dark</item>
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/gray_light</item>
+        <item name="materialButtonStyle">@style/Widget.EformMobile.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.EformMobile.CardView</item>
+        <item name="materialToolbarStyle">@style/Widget.EformMobile.Toolbar</item>
+    </style>
+
+    <style name="ShapeAppearance.EformMobile.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.EformMobile.Button" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.EformMobile.Button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/blue_dark</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="Widget.EformMobile.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">10dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Widget.EformMobile.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.EformMobile.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.EformMobile.Toolbar.Subtitle</item>
+    </style>
+
+    <style name="TextAppearance.EformMobile.Toolbar.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.EformMobile.Toolbar.Subtitle" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EFORM MOBILE</string>
+    <string name="login_title">EFORM MOBILE</string>
+    <string name="login_subtitle">Bienvenido de nuevo, inicia sesión para continuar.</string>
+    <string name="login_welcome">¡Hola! Accede a tu cuenta</string>
+    <string name="login_card_subtitle">Usa tu correo y contraseña para entrar al sistema.</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="product_list_title">Lista de productos</string>
+    <string name="product_list_subtitle">Gestiona y revisa tus productos activos.</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="product_name_hint">Nombre</string>
+    <string name="product_description_hint">Descripción</string>
+    <string name="product_price_hint">Precio</string>
+    <string name="product_stock_hint">Stock</string>
+    <string name="product_form_subtitle">Completa los detalles del producto.</string>
+    <string name="save_product_button">Guardar</string>
+    <string name="empty_product_list">No hay productos disponibles.</string>
+</resources>
